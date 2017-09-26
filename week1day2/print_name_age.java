@@ -11,7 +11,7 @@ public class print_name_age {
 	Scanner value = new Scanner(System.in);
 	age = value.nextInt();
 	System.out.println("Enter your Name : ");
-	name = value.nextLine();
+	name = value.next();
 	System.out.println("Your age is " +age);
 	System.out.println("Your name is " +name);
 	
